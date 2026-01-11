@@ -1,0 +1,16 @@
+div {
+    width: 49%;
+    display: inline-block;
+    background: linear-gradient(to left, blue, darkblue);
+    border-radius: 10px;
+    padding: 30px 0 30px 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(to right, blue, darkblue);
+}
