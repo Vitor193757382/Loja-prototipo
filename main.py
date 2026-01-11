@@ -5,8 +5,8 @@ app = Flask(__name__)
 produtos = [()()()]
 
 @app.route("/produtos")
-def produtos()
+def produtos():
   return render_template("produtos.html", produtos=produtos)
 
-  if __name__ == "__main__":
-    app.run()
+if __name__ == "__main__":
+  app.run()
