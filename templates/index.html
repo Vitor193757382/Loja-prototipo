@@ -4,20 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-    <title></title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='principal.css') }}">
 </head>
 
 <body>
           
     <h1>Bem vindo</h1>
     <h3>Você quer</h3>
-    <div>
-        <a href="produtos.html">Ver produtos</a>
-    </div>
-    <div>
-        <a href="/criar">Criar um produto</a>
-                              
-    </div>
+    <a href="/produtos">Ver produtos</a>
+
+    <a href="/criar">Criar um produto</a>
 </body>
 </html>

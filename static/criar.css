@@ -1,0 +1,12 @@
+body {
+    background: linear-gradient(to right, blue, darkblue);
+    color: white;
+}
+
+input {
+    border: 2px solid rgb(92, 92, 231);
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 70%;
+    height: 30px;
+}

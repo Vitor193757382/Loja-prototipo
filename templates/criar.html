@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='criar.css') }}">
+</head>
+<body>
+    <form action="" method="post">
+        <label for="tit">Título:</label>
+        <input id="tit" type="text" name="titulo" placeholder="digite o título (max: 10)">
+        <br>
+        <label for="desc">Descrição:</label>
+        <input id="desc" type="text" name="descricao" placeholder="digite a descrição (max: 26)">
+        <br>
+        <label for="img">Url da imagem:</label>
+        <input id="img" type="text" name="imagem" placeholder="digite a url da imagem">
+        <br>
+        <input style="width: 30%;" type="submit" value="Enviar">
+
+    </form>
+
+    {% if situacao == True %}
+        <p style="color: green;">{{texto}}</p>
+    {% elif situacao == False %}
+        <p style="color: red;">{{texto}}</p>
+    {% endif %}
+
+</body>
+</html>
